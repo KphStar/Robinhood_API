@@ -52,9 +52,7 @@ namespace Robinhood_API
 
                 // Parse the JSON and set labels
                 var j = JObject.Parse(result);
-              //  lablAccountNumber.Text = $"Account Number: {j["account_number"]?.ToString() ?? "N/A"}";
-              //  lablStaus.Text = $"Status: {j["status"]?.ToString() ?? "N/A"}";
-                //lablBuyingPower.Text = $"Buying Power: {j["buying_power"]?.ToString() ?? "N/A"} {j["buying_power_currency"]?.ToString() ?? ""}";
+    
             }
             catch (Exception ex)
             {
@@ -82,8 +80,8 @@ namespace Robinhood_API
 
             // ---- Remove grid and set transparent background ----
             var area = chartprice.ChartAreas[0];
-            area.AxisX.LabelStyle.Enabled = false; // <---- Hides bottom numbers
-            area.AxisY.LabelStyle.Enabled = false; // <---- Hides left numbers
+            area.AxisX.LabelStyle.Enabled = false; 
+            area.AxisY.LabelStyle.Enabled = false; 
             area.AxisX.LineWidth = 0;
             area.AxisY.LineWidth = 0;
             area.AxisX.MajorTickMark.Enabled = false;
