@@ -52,9 +52,9 @@ namespace Robinhood_API
 
                 // Parse the JSON and set labels
                 var j = JObject.Parse(result);
-                lablAccountNumber.Text = $"Account Number: {j["account_number"]?.ToString() ?? "N/A"}";
-                lablStaus.Text = $"Status: {j["status"]?.ToString() ?? "N/A"}";
-                lablBuyingPower.Text = $"Buying Power: {j["buying_power"]?.ToString() ?? "N/A"} {j["buying_power_currency"]?.ToString() ?? ""}";
+              //  lablAccountNumber.Text = $"Account Number: {j["account_number"]?.ToString() ?? "N/A"}";
+              //  lablStaus.Text = $"Status: {j["status"]?.ToString() ?? "N/A"}";
+                //lablBuyingPower.Text = $"Buying Power: {j["buying_power"]?.ToString() ?? "N/A"} {j["buying_power_currency"]?.ToString() ?? ""}";
             }
             catch (Exception ex)
             {
@@ -188,6 +188,8 @@ namespace Robinhood_API
                 MessageBox.Show("Error fetching price: " + ex.Message, "Error");
             }
         }
+
+    
     }
     
 }
