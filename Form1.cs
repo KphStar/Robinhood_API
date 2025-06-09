@@ -24,9 +24,9 @@ namespace Robinhood_API
 
         // GLOBAL CONSTANTS FILE FOLDER PATH 
 
-        private readonly string keyPath = @"C:\Users\USER PC\Documents\C#\Robinhood_API";
-        private readonly string privateKeyFile = "my_private_key.txt";
-        private readonly string robinhoodApiKey = "RobKeys.txt"; // <-- Your Robinhood API Key
+        private readonly string keyPath = @"";// <-- Your Path File Keys (Private Key & API Key)
+        private readonly string privateKeyFile = "";// <-- Your Genertated Private Key
+        private readonly string robinhoodApiKey = ""; // <-- Your Robinhood API Key
         public Form1()
         {
             InitializeComponent();
