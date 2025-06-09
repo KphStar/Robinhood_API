@@ -69,7 +69,7 @@ namespace Robinhood_API
             chartprice.Series.Add("BTC-USD");
             chartprice.Series["BTC-USD"].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
             chartprice.Series["BTC-USD"].XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time;
-            chartprice.Series["BTC-USD"].BorderWidth = 4; 
+            chartprice.Series["BTC-USD"].BorderWidth = 6; 
             chartprice.ChartAreas[0].AxisX.LabelStyle.Format = "HH:mm:ss";
             chartprice.ChartAreas[0].AxisX.IntervalType = System.Windows.Forms.DataVisualization.Charting.DateTimeIntervalType.Seconds;
 
