@@ -48,9 +48,9 @@ Use for learning, personal dashboards, or prototyping only.
 
 ## Screenshot
 
-![Live Bitcoin Dashboard](BTC_Result.png)
----
+![BTC_Result](https://github.com/user-attachments/assets/6514c29c-1a50-4c3c-95df-dccd173843f2)
 
+---
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.
